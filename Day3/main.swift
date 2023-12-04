@@ -7,8 +7,6 @@
 
 import Foundation
 
-let lines = InputHelper.readInput().lines()
-
 let example = """
 467..114..
 ...*......
@@ -22,6 +20,8 @@ let example = """
 .664.598..
 """.lines()
 _ = example
+
+let lines = InputHelper.readInput().lines()
 
 let schematic = lines.map(Array.init)
 
@@ -132,7 +132,5 @@ func partTwo() throws -> Int {
         .reduce(0, +)
 }
 
-doOrPrintError {
-    print("Part 1:", try partOne())
-    print("Part 2:", try partTwo())
-}
+print("Part 1:", try partOne())
+print("Part 2:", try partTwo())

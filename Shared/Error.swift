@@ -14,11 +14,3 @@ struct Error: LocalizedError {
         self.errorDescription = errorDescription
     }
 }
-
-func doOrPrintError(_ closure: () throws -> Void) {
-    do {
-        try closure()
-    } catch {
-        print(error.localizedDescription)
-    }
-}

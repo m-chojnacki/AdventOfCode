@@ -81,7 +81,5 @@ func partTwo() throws -> Int {
         .reduce(0, +)
 }
 
-doOrPrintError {
-    print("Part 1:", try partOne())
-    print("Part 2:", try partTwo())
-}
+print("Part 1:", try partOne())
+print("Part 2:", try partTwo())

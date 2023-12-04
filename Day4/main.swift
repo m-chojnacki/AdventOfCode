@@ -6,9 +6,6 @@
 //
 
 import Foundation
-import RegexBuilder
-
-let lines = InputHelper.readInput().lines()
 
 let example = """
 Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53
@@ -19,6 +16,8 @@ Card 5: 87 83 26 28 32 | 88 30 70 12 93 22 82 36
 Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11
 """.lines()
 _ = example
+
+let lines = InputHelper.readInput().lines()
 
 struct Card {
     let number: Int
@@ -41,7 +40,7 @@ func parseLine(_ line: String) throws -> Card {
           let numbersPart = colonSeparatedParts.last
     else { throw Error("Line \(line) does not contain colon separated elements") }
 
-    let cardPartElements = cardPart.split(separator: .whitespace)
+    let cardPartElements = cardPart.split(separator: " ")
     guard cardPartElements.count == 2,
           cardPartElements.first == "Card",
           let cardPartNumber = cardPartElements.last,
@@ -89,7 +88,5 @@ func partTwo() throws -> Int {
         .reduce(0, +)
 }
 
-doOrPrintError {
-    print("Part 1:", try partOne())
-    print("Part 2:", try partTwo())
-}
+print("Part 1:", try partOne())
+print("Part 2:", try partTwo())
