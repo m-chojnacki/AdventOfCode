@@ -38,16 +38,6 @@ struct Coordinates: Hashable, CustomStringConvertible {
     }
 }
 
-extension Collection where Iterator.Element: RandomAccessCollection {
-    func transposed() -> [[Iterator.Element.Iterator.Element]] {
-        guard let firstRow = self.first else { return [] }
-
-        return firstRow.indices.map { index in
-            self.map { $0[index] }
-        }
-    }
-}
-
 func partOne(expansion: Int = 2) throws -> Int {
     let galaxies = lines.map { $0.map { $0 == "#" } }
     let transposedGalaxies = galaxies.transposed()

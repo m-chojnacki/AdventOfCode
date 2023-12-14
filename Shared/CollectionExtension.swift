@@ -11,6 +11,16 @@ extension Collection {
     }
 }
 
+extension Collection where Iterator.Element: RandomAccessCollection {
+    func transposed() -> [[Iterator.Element.Iterator.Element]] {
+        guard let first else { return [] }
+
+        return first.indices.map { index in
+            map { $0[index] }
+        }
+    }
+}
+
 extension MutableCollection {
     subscript(safe index: Index) -> Element? {
         get {
