@@ -37,20 +37,6 @@ enum Tile: Character, CustomStringConvertible {
 
 let input = lines.map { $0.compactMap(Tile.init) }
 
-struct Coordinates: Hashable, CustomStringConvertible {
-    let row: Int
-    let col: Int
-
-    var description: String {
-        "(\(row), \(col))"
-    }
-
-    init(_ row: Int, _ col: Int) {
-        self.row = row
-        self.col = col
-    }
-}
-
 enum Direction: Hashable {
     case up
     case down

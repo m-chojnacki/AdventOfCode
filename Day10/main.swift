@@ -106,20 +106,6 @@ enum PipeChar: Character, CustomStringConvertible {
     }
 }
 
-struct Coordinates: Hashable, CustomStringConvertible {
-    let row: Int
-    let col: Int
-
-    var description: String {
-        "(\(row), \(col))"
-    }
-
-    init(_ row: Int, _ col: Int) {
-        self.row = row
-        self.col = col
-    }
-}
-
 final class PipeNode {
     let char: PipeChar
     let coordinates: Coordinates

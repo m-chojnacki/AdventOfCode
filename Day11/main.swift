@@ -24,20 +24,6 @@ _ = example
 
 let lines = InputHelper.readInput().lines()
 
-struct Coordinates: Hashable, CustomStringConvertible {
-    let row: Int
-    let col: Int
-
-    var description: String {
-        "(\(row), \(col))"
-    }
-
-    init(_ row: Int, _ col: Int) {
-        self.row = row
-        self.col = col
-    }
-}
-
 func partOne(expansion: Int = 2) throws -> Int {
     let galaxies = lines.map { $0.map { $0 == "#" } }
     let transposedGalaxies = galaxies.transposed()

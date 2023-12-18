@@ -115,6 +115,24 @@
 		D3C387232B2235DA00F0EF5B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCA4402B1A42B3001AFF25 /* Error.swift */; };
 		D3C387242B2235DC00F0EF5B /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A10F6E2B1D0FFE003531EC /* CollectionExtension.swift */; };
 		D3C387262B22360A00F0EF5B /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3C387252B2235FE00F0EF5B /* input.txt */; };
+		D3C8A6342B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6352B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6362B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6372B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6382B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6392B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A63A2B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A63B2B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A63C2B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A63D2B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A63E2B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A63F2B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6402B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6412B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6422B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6432B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6442B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
+		D3C8A6452B30E8C100A049AD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8A6332B30E8C100A049AD /* Coordinates.swift */; };
 		D3CCA4412B1A42B3001AFF25 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCA4402B1A42B3001AFF25 /* Error.swift */; };
 		D3F1B0152B28C27600105741 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = D3F1B0142B28C27600105741 /* Algorithms */; };
 /* End PBXBuildFile section */
@@ -360,6 +378,7 @@
 		D3C3871A2B2235D000F0EF5B /* Day8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day8; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C3871C2B2235D000F0EF5B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D3C387252B2235FE00F0EF5B /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		D3C8A6332B30E8C100A049AD /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		D3CCA4402B1A42B3001AFF25 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -670,6 +689,7 @@
 				D3A5860F2B19D29D008362D2 /* InputHelper.swift */,
 				D3A586112B19D3BD008362D2 /* StringExtension.swift */,
 				D3A10F6E2B1D0FFE003531EC /* CollectionExtension.swift */,
+				D3C8A6332B30E8C100A049AD /* Coordinates.swift */,
 				D3CCA4402B1A42B3001AFF25 /* Error.swift */,
 			);
 			path = Shared;
@@ -1157,6 +1177,7 @@
 				D31454D12B30574300FDBEB1 /* StringExtension.swift in Sources */,
 				D31454D32B30574300FDBEB1 /* CollectionExtension.swift in Sources */,
 				D31454D22B30574300FDBEB1 /* InputHelper.swift in Sources */,
+				D3C8A6452B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D31454D42B30574300FDBEB1 /* Error.swift in Sources */,
 				D31454CC2B30572900FDBEB1 /* main.swift in Sources */,
 			);
@@ -1169,6 +1190,7 @@
 				D3A10F6F2B1D0FFE003531EC /* CollectionExtension.swift in Sources */,
 				D3CCA4412B1A42B3001AFF25 /* Error.swift in Sources */,
 				D337E3072B19223B00B36F67 /* main.swift in Sources */,
+				D3C8A6342B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D3A586102B19D29D008362D2 /* InputHelper.swift in Sources */,
 				D3A586122B19D3BD008362D2 /* StringExtension.swift in Sources */,
 			);
@@ -1181,6 +1203,7 @@
 				D3A10F712B1D0FFE003531EC /* CollectionExtension.swift in Sources */,
 				D3400C2C2B1BC3D20041F07A /* Error.swift in Sources */,
 				D3400C2A2B1BC3CE0041F07A /* InputHelper.swift in Sources */,
+				D3C8A6362B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D3400C262B1BC3AC0041F07A /* main.swift in Sources */,
 				D3400C2B2B1BC3D00041F07A /* StringExtension.swift in Sources */,
 			);
@@ -1193,6 +1216,7 @@
 				D34885CD2B277A8C00DC898D /* InputHelper.swift in Sources */,
 				D34885CF2B277A9100DC898D /* CollectionExtension.swift in Sources */,
 				D34885C82B277A3A00DC898D /* main.swift in Sources */,
+				D3C8A63E2B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D34885D02B277A9500DC898D /* Error.swift in Sources */,
 				D34885CE2B277A8E00DC898D /* StringExtension.swift in Sources */,
 			);
@@ -1205,6 +1229,7 @@
 				D34885E02B278E6300DC898D /* InputHelper.swift in Sources */,
 				D34885E22B278E6700DC898D /* CollectionExtension.swift in Sources */,
 				D34885DC2B278E5B00DC898D /* main.swift in Sources */,
+				D3C8A63F2B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D34885E32B278E6900DC898D /* Error.swift in Sources */,
 				D34885E12B278E6500DC898D /* StringExtension.swift in Sources */,
 			);
@@ -1217,6 +1242,7 @@
 				D361E8C12B1F5182001CCDFE /* InputHelper.swift in Sources */,
 				D361E8C32B1F5189001CCDFE /* CollectionExtension.swift in Sources */,
 				D361E8BD2B1F5160001CCDFE /* main.swift in Sources */,
+				D3C8A6392B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D361E8C42B1F518B001CCDFE /* Error.swift in Sources */,
 				D361E8C22B1F5187001CCDFE /* StringExtension.swift in Sources */,
 			);
@@ -1229,6 +1255,7 @@
 				D374874C2B1D311200E5494E /* InputHelper.swift in Sources */,
 				D374874E2B1D311600E5494E /* CollectionExtension.swift in Sources */,
 				D37487482B1D310000E5494E /* main.swift in Sources */,
+				D3C8A6372B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D374874F2B1D311900E5494E /* Error.swift in Sources */,
 				D374874D2B1D311400E5494E /* StringExtension.swift in Sources */,
 			);
@@ -1241,6 +1268,7 @@
 				D37877452B24600200BB03E0 /* StringExtension.swift in Sources */,
 				D37877432B245FFF00BB03E0 /* Error.swift in Sources */,
 				D378773D2B245FBE00BB03E0 /* main.swift in Sources */,
+				D3C8A63C2B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D37877442B24600000BB03E0 /* CollectionExtension.swift in Sources */,
 				D37877462B24600400BB03E0 /* InputHelper.swift in Sources */,
 			);
@@ -1253,6 +1281,7 @@
 				D37877522B246AE000BB03E0 /* InputHelper.swift in Sources */,
 				D37877542B246AE500BB03E0 /* CollectionExtension.swift in Sources */,
 				D378774E2B246AC600BB03E0 /* main.swift in Sources */,
+				D3C8A63D2B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D37877552B246AE700BB03E0 /* Error.swift in Sources */,
 				D37877532B246AE200BB03E0 /* StringExtension.swift in Sources */,
 			);
@@ -1265,6 +1294,7 @@
 				D38B13822B2B32BC00AF2875 /* InputHelper.swift in Sources */,
 				D38B13842B2B32C000AF2875 /* CollectionExtension.swift in Sources */,
 				D38B137D2B2B329500AF2875 /* main.swift in Sources */,
+				D3C8A6412B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D38B13852B2B32C200AF2875 /* Error.swift in Sources */,
 				D38B13832B2B32BE00AF2875 /* StringExtension.swift in Sources */,
 			);
@@ -1277,6 +1307,7 @@
 				D38B13922B2C6D5000AF2875 /* InputHelper.swift in Sources */,
 				D38B13942B2C6D5500AF2875 /* CollectionExtension.swift in Sources */,
 				D38B138E2B2C6D3000AF2875 /* main.swift in Sources */,
+				D3C8A6422B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D38B13952B2C6D5700AF2875 /* Error.swift in Sources */,
 				D38B13932B2C6D5300AF2875 /* StringExtension.swift in Sources */,
 			);
@@ -1289,6 +1320,7 @@
 				D38C98FF2B1E4C5E0090ABF4 /* InputHelper.swift in Sources */,
 				D38C99012B1E4C620090ABF4 /* CollectionExtension.swift in Sources */,
 				D38C98FA2B1E4C310090ABF4 /* main.swift in Sources */,
+				D3C8A6382B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D38C99022B1E4C640090ABF4 /* Error.swift in Sources */,
 				D38C99002B1E4C600090ABF4 /* StringExtension.swift in Sources */,
 			);
@@ -1301,6 +1333,7 @@
 				D38D4D522B2A580F004F28A8 /* CollectionExtension.swift in Sources */,
 				D38D4D512B2A580E004F28A8 /* Error.swift in Sources */,
 				D38D4D4F2B2A5809004F28A8 /* InputHelper.swift in Sources */,
+				D3C8A6402B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D38D4D4A2B2A57C8004F28A8 /* main.swift in Sources */,
 				D38D4D502B2A580B004F28A8 /* StringExtension.swift in Sources */,
 			);
@@ -1313,6 +1346,7 @@
 				D3B34C432B20772F00AC92ED /* InputHelper.swift in Sources */,
 				D3B34C452B20773200AC92ED /* CollectionExtension.swift in Sources */,
 				D3B34C3F2B20771900AC92ED /* main.swift in Sources */,
+				D3C8A63A2B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D3B34C462B20773400AC92ED /* Error.swift in Sources */,
 				D3B34C442B20773000AC92ED /* StringExtension.swift in Sources */,
 			);
@@ -1325,6 +1359,7 @@
 				D3A10F702B1D0FFE003531EC /* CollectionExtension.swift in Sources */,
 				D3B89EEE2B1A49E600E4860A /* Error.swift in Sources */,
 				D3B89EEC2B1A49E200E4860A /* InputHelper.swift in Sources */,
+				D3C8A6352B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D3B89EE82B1A49B200E4860A /* main.swift in Sources */,
 				D3B89EED2B1A49E400E4860A /* StringExtension.swift in Sources */,
 			);
@@ -1337,6 +1372,7 @@
 				D3BE87C02B2E505800E3FEB9 /* InputHelper.swift in Sources */,
 				D3BE87C22B2E505B00E3FEB9 /* CollectionExtension.swift in Sources */,
 				D3BE87BC2B2E503300E3FEB9 /* main.swift in Sources */,
+				D3C8A6432B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D3BE87C32B2E505D00E3FEB9 /* Error.swift in Sources */,
 				D3BE87C12B2E505A00E3FEB9 /* StringExtension.swift in Sources */,
 			);
@@ -1349,6 +1385,7 @@
 				D3BE87D12B2F2E6B00E3FEB9 /* InputHelper.swift in Sources */,
 				D3BE87D32B2F2E6F00E3FEB9 /* CollectionExtension.swift in Sources */,
 				D3BE87CD2B2F2E4C00E3FEB9 /* main.swift in Sources */,
+				D3C8A6442B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D3BE87D42B2F2E7200E3FEB9 /* Error.swift in Sources */,
 				D3BE87D22B2F2E6D00E3FEB9 /* StringExtension.swift in Sources */,
 			);
@@ -1361,6 +1398,7 @@
 				D3C387242B2235DC00F0EF5B /* CollectionExtension.swift in Sources */,
 				D3C387232B2235DA00F0EF5B /* Error.swift in Sources */,
 				D3C387212B2235D600F0EF5B /* InputHelper.swift in Sources */,
+				D3C8A63B2B30E8C100A049AD /* Coordinates.swift in Sources */,
 				D3C3871D2B2235D000F0EF5B /* main.swift in Sources */,
 				D3C387222B2235D800F0EF5B /* StringExtension.swift in Sources */,
 			);

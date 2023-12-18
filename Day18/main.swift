@@ -81,22 +81,6 @@ func parseInput(_ input: [String]) throws -> [Command] {
 
 let input = try parseInput(lines)
 
-struct Coordinates: Hashable, CustomStringConvertible {
-    let row: Int
-    let col: Int
-
-    static var zero = Coordinates(0, 0)
-
-    var description: String {
-        "(\(row), \(col))"
-    }
-
-    init(_ row: Int, _ col: Int) {
-        self.row = row
-        self.col = col
-    }
-}
-
 func calculatePolygonArea(_ vertices: [Coordinates]) -> Int {
     let yy = vertices.map(\.row)
     let xx = vertices.map(\.col)
