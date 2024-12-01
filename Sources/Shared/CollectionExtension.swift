@@ -9,6 +9,13 @@ public extension Collection {
     subscript(safe index: Index) -> Element? {
         indices.contains(index) ? self[index] : nil
     }
+
+    func unzip<T, U>() -> ([T], [U]) where Element == (T, U) {
+        reduce(into: ([T](), [U]())) { result, pair in
+            result.0.append(pair.0)
+            result.1.append(pair.1)
+        }
+    }
 }
 
 public extension Collection where Iterator.Element: RandomAccessCollection {
