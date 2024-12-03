@@ -42,7 +42,8 @@ let package = Package(
          * Year 2024
          */
         .day(1, year: 2024),
-        .day(2, year: 2024)
+        .day(2, year: 2024),
+        .day(3, year: 2024)
     ]
 )
 
