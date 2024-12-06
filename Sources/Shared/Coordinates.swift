@@ -6,8 +6,8 @@
 //
 
 public struct Coordinates: Hashable, Sendable, CustomStringConvertible {
-    public let row: Int
-    public let col: Int
+    public var row: Int
+    public var col: Int
 
     public static let zero = Coordinates(0, 0)
 
