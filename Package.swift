@@ -53,7 +53,8 @@ let package = Package(
         .day(10, year: 2024),
         .day(11, year: 2024),
         .day(12, year: 2024),
-        .day(13, year: 2024)
+        .day(13, year: 2024),
+        .day(14, year: 2024)
     ]
 )
 
